@@ -375,7 +375,7 @@
     line-height: 20px;
 }
 
-.reservation__terms__wrap{
+.reservation__wrap{
     display: flex;
     justify-content: center;
 }
