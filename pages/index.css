@@ -68,7 +68,7 @@
     display: block;
 }
 
-.inside__coffee{
+.header__coffee{
     top: 124px;
     right: 5px;
     max-width: 646px;
@@ -185,7 +185,7 @@
     width: 600px;
 }
 
-.list_title{
+.card__title{
     font-family: inter, arial, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -194,7 +194,7 @@
     margin-bottom: 32px;
 }
 
-.list-item{
+.card__list-item{
     font-family: "noto serif", 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -207,10 +207,9 @@
     width: 100%;
 }
 
-.list-items{
+.card__list{
     padding: 0;
 }
-
 
 
 .recipes{
@@ -250,7 +249,7 @@
     margin-bottom: 215px;
 }
 
-.list-item_divider{
+.card__list-divider{
     height: 1px;
     min-width: 50px;
     background: white;
