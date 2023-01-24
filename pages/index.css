@@ -1,8 +1,5 @@
 @import url(../vendor/normalize.css);
 
-fieldset {
-    border: 0;
-}
 
 .page{
     min-width: 1100px;
@@ -26,6 +23,7 @@ fieldset {
     padding-top: 30px;
     position: relative;
     background-size: cover;
+    background-repeat: none;
 
 }
 
@@ -39,8 +37,7 @@ fieldset {
 
 .nav{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 .nav__links{
@@ -66,7 +63,6 @@ fieldset {
     color: #2f80ed;
     font-style: italic;
     font-family: "noto serif", 'Times New Roman', serif;
-    font-weight: normal;
     font-size: 60px;
     line-height: 72px;
     display: block;
@@ -90,7 +86,7 @@ fieldset {
     max-width: 729px;
 }
 
-.description{
+.header__description{
     font-family: "noto serif", 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
@@ -111,7 +107,7 @@ fieldset {
     line-height: 20px;
 }
 
-.paragraph__time{
+.header__paragraph{
     margin: 0;
 }
 
@@ -124,6 +120,8 @@ fieldset {
     align-items: flex-end;
     width: 100%;
     color: #6f6f6f;
+    box-sizing: border-box;
+    margin-bottom: 0;
 }
 
 .header__address{
@@ -142,11 +140,10 @@ fieldset {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 100px;
 }
 
-.title{
-    padding-top: 100px;
-    bottom: 12px;
+.menu__title{
     font-family: inter, arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -162,7 +159,7 @@ fieldset {
 
 .subtitle{
     max-width: 780px;
-    margin-top: 12px;
+    
     font-family: "noto serif", 'Times New Roman', serif;
     font-size: 20px;
     font-style: normal;
@@ -246,7 +243,7 @@ fieldset {
     line-height: 30px;
 }
 
-.videos{
+.recipes__videos{
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -260,7 +257,7 @@ fieldset {
     flex-grow: 1;
 }
 
-.video-caption{
+.recipes__video-caption{
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
@@ -289,7 +286,7 @@ fieldset {
 }
 
 .reservation__contanier{
-    margin-top: 100px;
+   
     bottom: 80px;
     font-family: inter, arial, sans-serif;
     font-style: normal;
@@ -299,7 +296,7 @@ fieldset {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
+    
 }
 
 .reservation__fieldset{
@@ -309,6 +306,7 @@ fieldset {
     padding: 0;
     margin-bottom: 32px;
     width: 385px;
+    border: none;
 }
 
 .reservation__label{
@@ -318,8 +316,7 @@ fieldset {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    border: 0;
-    padding: 0;
+  
 
 }
 .reservation__item{
@@ -339,15 +336,12 @@ fieldset {
     flex-direction: column;
 }
 
-.reservation__button[type="submit"] {
-    min-height: 60px;
-    background: #2f80ed;
-    border-radius: 4px;
-    font-size: 16px;
-}
 
 .reservation__button{
     font-family: inter, arial, sans-serif;
+    min-height: 60px;
+    border-radius: 4px;
+    font-size: 16px;
     font-style: normal;
     color: #ffffffff;
     font-weight: 500;
@@ -368,7 +362,7 @@ fieldset {
 .reservation__checkbox{
     width: 20px;
     height: 20px;
-    margin-right: 12px;
+    gap: 12px;
 }
 
 .reservation__terms{
@@ -464,12 +458,13 @@ fieldset {
 
 .footer{
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    padding-left: 80px;
 }
 
 .footer__logo{
     width: 116px;
     height: 21px;
-    padding-left: 80px;
+    
     
 }
 
