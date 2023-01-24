@@ -114,7 +114,7 @@
 .header__footer {
     left: 0;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     bottom: 40px;
     justify-content: space-between;
     align-items: flex-end;
@@ -122,6 +122,7 @@
     color: #6f6f6f;
     box-sizing: border-box;
     margin-bottom: 0;
+    padding-right: 80px;
 }
 
 .header__address{
@@ -130,7 +131,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    margin-right: 80px;
+    
     margin-bottom: 0;
 }
 
@@ -352,6 +353,7 @@
     margin-bottom: 32px;
     opacity: 100%;
     transition: opacity 0.5 ease;
+    margin-top: 32px;
 }
 
 .reservation__button:hover{
@@ -363,6 +365,7 @@
     width: 20px;
     height: 20px;
     gap: 12px;
+    margin-right: 12px;
 }
 
 .reservation__terms{
