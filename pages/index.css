@@ -131,7 +131,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    
     margin-bottom: 0;
 }
 
@@ -160,7 +159,6 @@
 
 .subtitle{
     max-width: 780px;
-    
     font-family: "noto serif", 'Times New Roman', serif;
     font-size: 20px;
     font-style: normal;
@@ -357,7 +355,6 @@
 
 .reservation__button:hover{
     opacity: 70%;
-    
 }
 
 .reservation__checkbox{
@@ -428,7 +425,6 @@
     z-index: 0;
     top: -152px;
     left: -129px;
-    
 }
 
 .about__circle_animation_blured{
@@ -466,8 +462,6 @@
 .footer__logo{
     width: 116px;
     height: 21px;
-    
-    
 }
 
 .footer__content{
@@ -518,7 +512,7 @@
 .footer__social-link:hover{
     color: #c1c1c1;
     transition: color 0.4s ease-in-out;
-}
+}x
 
 .footer__copyright{
     padding: 108px 0 60px 80px;
