@@ -1,0 +1,74 @@
+.about{
+    background: #0a2850;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.about__title{
+    font-family: inter, arial, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #ffffffff;
+    max-width: 251px;
+    padding-top: 100px;
+    padding-left: 80px;
+    z-index: 1;
+    margin: 0;
+}
+
+.about__content{
+    max-width: 660px;
+    padding-top: 119px;
+    padding-bottom: 173px;
+    padding-right: 80px;
+}
+
+.about__paragrapgh{
+    font-family: "noto serif", 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffffff;
+}
+
+
+.about__circle{
+    background-color: #2f80ed;
+    position: absolute;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: 0;
+    top: -152px;
+    left: -129px;
+}
+
+.about__circle_animation_blured{
+    animation: circle-animation 1.5s ease-in-out 0s infinite;
+    background-color: #2f80ed;
+    position: absolute;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    z-index: 0;
+    top: -152px;
+    left: -129px;
+}
+
+@keyframes circle-animation {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6; 
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.3); 
+    }
+}

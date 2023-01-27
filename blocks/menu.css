@@ -1,0 +1,34 @@
+.menu{
+    background-color: #0a2750;
+    background-image: url(../Images/background_menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.menu__title{
+    font-family: inter, arial, sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #ffffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.menu__subtitle{
+    max-width: 780px;
+    font-family: "noto serif", 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+    color: #ffffffff;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
