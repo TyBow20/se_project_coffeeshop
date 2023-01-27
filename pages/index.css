@@ -12,7 +12,7 @@
 
 @media(min-width: 1600px){
 .page{
-    margin: auto;
+    margin: 0 auto;
 }
 }
     
@@ -23,8 +23,7 @@
     padding-top: 30px;
     position: relative;
     background-size: cover;
-    background-repeat: none;
-
+    background-repeat: no-repeat;
 }
 
 .header__image{
@@ -38,12 +37,12 @@
 .nav{
     display: flex;
     justify-content: flex-end;
+    padding-right: 80px;
 }
 
 .nav__links{
     list-style: none;
     margin-top: 30px;
-    margin-right: 80px;
     margin-bottom: 0px;
     display: flex;
     column-gap: 20px;
@@ -89,7 +88,6 @@
 .header__description{
     font-family: "noto serif", 'Times New Roman', serif;
     font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 20px;
     max-width: 683px;
@@ -101,7 +99,6 @@
     flex-direction: column;
     margin-left: 80px;
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -127,7 +124,6 @@
 
 .header__address{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -145,7 +141,6 @@
 
 .menu__title{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -157,7 +152,7 @@
     margin-bottom: 24px;
 }
 
-.subtitle{
+.menu__subtitle{
     max-width: 780px;
     font-family: "noto serif", 'Times New Roman', serif;
     font-size: 20px;
@@ -186,7 +181,6 @@
 
 .card__title{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
@@ -219,7 +213,6 @@
 
 .recipes__title{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -227,12 +220,10 @@
     margin-top: 0;
     margin-bottom: 24px;
     margin-left: 80px;
-    padding-top: 100px;
 }
 
 .recipes__subtitle{
     margin-bottom: 80px;
-    margin-left: 80px;
     max-width: 438px;
     font-family: "noto serif", 'Times New Roman', serif;
     font-style: normal;
@@ -260,7 +251,6 @@
     justify-content: space-between;
     margin-top: 24px;
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -275,7 +265,6 @@
 .reservation__title{
     
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -285,9 +274,7 @@
 
 .reservation__contanier{
    
-    bottom: 80px;
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -310,7 +297,6 @@
 .reservation__label{
     margin-bottom: 8px;
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -337,7 +323,6 @@
     min-height: 60px;
     border-radius: 4px;
     font-size: 16px;
-    font-style: normal;
     color: #ffffffff;
     font-weight: 500;
     line-height: 20px;
@@ -347,6 +332,7 @@
     opacity: 100%;
     transition: opacity 0.5 ease;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 .reservation__button:hover{
@@ -356,13 +342,11 @@
 .reservation__checkbox{
     width: 20px;
     height: 20px;
-    gap: 12px;
     margin-right: 12px;
 }
 
 .reservation__terms{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -383,7 +367,6 @@
 
 .about__title{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -451,7 +434,7 @@
 
 .footer{
     background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
-    padding-left: 80px;
+    padding: 108px 0 60px 80px;
 }
 
 .footer__logo{
@@ -470,7 +453,6 @@
     margin-bottom: 20px;
     margin: 0;
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
@@ -484,7 +466,6 @@
 
 .footer__list-item{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
@@ -493,7 +474,6 @@
 
 .footer__social-link{
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
@@ -507,13 +487,12 @@
 .footer__social-link:hover{
     color: #c1c1c1;
     transition: color 0.4s ease-in-out;
-}x
+}
 
 .footer__copyright{
-    padding: 108px 0 60px 80px;
+    
     color: #ffffffff;
     font-family: inter, arial, sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
