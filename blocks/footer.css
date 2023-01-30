@@ -17,13 +17,12 @@
 
 .footer__social-heading{
     margin: 0;
-    font-family: inter, arial, sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     color: #ffffffff;
     text-align: right;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer__list{
@@ -31,24 +30,17 @@
 }
 
 .footer__list-item{
-    font-family: inter, arial, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
+
     color: #ffffffff;
 }
 
 .footer__social-link{
-    font-family: inter, arial, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
     text-decoration: none;
     color: #ffffffff;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer__social-link:hover{
@@ -58,7 +50,5 @@
 
 .footer__copyright{
     color: #ffffffff;
-    font-family: inter, arial, sans-serif;
-    font-weight: normal;
     margin: 0;
 }

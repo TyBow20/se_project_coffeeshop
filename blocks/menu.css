@@ -5,10 +5,10 @@
     background-position: center;
     background-size: cover;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .menu__title{
-    font-family: inter, arial, sans-serif;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -24,8 +24,6 @@
     max-width: 780px;
     font-family: "noto serif", 'Times New Roman', serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: normal;
     line-height: 30px;
     color: #ffffffff;
     text-align: center;

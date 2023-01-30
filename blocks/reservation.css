@@ -1,11 +1,15 @@
 .reservation{
     background: #d9e7ff url(../Images/background_reservation.svg) no-repeat center/cover;
     padding: 100px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .reservation__title{
-    
-    font-family: inter, arial, sans-serif;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
@@ -13,17 +17,6 @@
     margin-bottom: 80px;
 }
 
-.reservation__contanier{
-   
-    font-family: inter, arial, sans-serif;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 .reservation__fieldset{
     display: flex;
@@ -83,17 +76,15 @@
 .reservation__checkbox{
     width: 20px;
     height: 20px;
-    margin-right: 12px;
 }
 
-.reservation__terms{
-    font-family: inter, arial, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
 
 .reservation__wrap{
     display: flex;
     justify-content: center;
+    column-gap: 12px;
+    font-family: inter, arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
