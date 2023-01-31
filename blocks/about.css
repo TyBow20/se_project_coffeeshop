@@ -7,16 +7,14 @@
 }
 
 .about__title{
-    font-family: inter, arial, sans-serif;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
     color: #ffffffff;
     max-width: 251px;
     padding-top: 100px;
-    padding-left: 80px;
     z-index: 1;
-    margin: 0;
+    margin-left: 80px;
 }
 
 .about__content{
@@ -28,8 +26,6 @@
 
 .about__paragrapgh{
     font-family: "noto serif", 'Times New Roman', serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     color: #ffffffff;

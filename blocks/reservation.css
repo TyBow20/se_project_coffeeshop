@@ -21,11 +21,8 @@
 .reservation__fieldset{
     display: flex;
     flex-direction: column;
-    max-width: 385px;
-    padding: 0;
-    margin-bottom: 32px;
-    width: 385px;
     border: none;
+    padding: 0;
 }
 
 .reservation__label{
@@ -49,11 +46,14 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    max-width: 385px;
+    padding: 0;
+    margin-bottom: 32px;
+    width: 385px;
 }
 
 
 .reservation__button{
-    font-family: inter, arial, sans-serif;
     min-height: 60px;
     border-radius: 4px;
     font-size: 16px;
@@ -83,7 +83,6 @@
     display: flex;
     justify-content: center;
     column-gap: 12px;
-    font-family: inter, arial, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
