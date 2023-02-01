@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     padding-left: 80px;
     box-sizing: border-box;
+    height: 100vh;
 }
 
 .header__image{
@@ -46,7 +47,6 @@
 
 .header__description{
     font-family: "noto serif", 'Times New Roman', serif;
-    font-style: normal;
     font-size: 20px;
     line-height: 20px;
     max-width: 683px;

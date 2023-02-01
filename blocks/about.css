@@ -4,6 +4,9 @@
     justify-content: space-between;
     position: relative;
     overflow: hidden;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-bottom: 173px;
 }
 
 .about__title{
@@ -12,16 +15,13 @@
     line-height: 52px;
     color: #ffffffff;
     max-width: 251px;
-    padding-top: 100px;
     z-index: 1;
     margin-left: 80px;
 }
 
 .about__content{
     max-width: 660px;
-    padding-top: 119px;
-    padding-bottom: 173px;
-    padding-right: 80px;
+    margin-top: 19px;
 }
 
 .about__paragrapgh{
